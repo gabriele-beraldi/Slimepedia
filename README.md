@@ -37,6 +37,7 @@ Adoraria ver mais pessoas contribuindo para a Slimepedia! Você pode:
 * A estilização da página está no arquivo style.css.
 
 Vamos juntos criar a maior e melhor Slimepedia da galáxia!
-![Slimes relaxando~] (https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDk0M3d4MHY1MXQyZ2ZtN2hmdTFiMDlnM3pobmZzZnhpNDdlbmVobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9M3BKmWII11Zp7l6O0/giphy.gif)
+
+![Slimes relaxando~] (imagens/slimes_relaxando.webp)
 
 #SlimeRancher #Slimepedia #JavaScript #HTML #CSS
