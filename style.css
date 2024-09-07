@@ -1,0 +1,186 @@
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+body {
+    background-color: #ffcdc5;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/slime_rancher_background.jpg);
+}
+
+section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+section input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color: gray;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+section button{
+    padding: 0.8rem;
+    border: thin;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    border-style:solid;
+    border-color: #24a7d1;
+    background-color: #81dafe;
+    color: #0e72b5;
+    font-size: 1rem;
+    cursor: pointer;
+    min-height: 100%;
+}
+
+section button :hover {
+    background-color: #0c6396;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.resultados-pesquisa {
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado {
+    background: #ffffff44;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    color: black;
+    font-family: "lucinda sans regular", sans-serif;
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #df2a41;
+}
+
+.item-resultado a :hover{
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+  }
+
+li {
+    background-color:rgba(255, 255, 255, 0.205);
+    padding: 0.4rem;
+    margin-bottom: 0.4rem;
+    border-radius: 0.6rem;
+  }
+
+.item-resultado img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.mensagem-erro {
+    color: black;
+    background-color: #e25b6c;
+    padding: 1rem;
+    border:solid;
+    border-color: #a25f71;
+    border-radius: 1rem;
+    text-align: center;
+    animation: shake 0.5s;
+}
+
+.descriçao-meta {
+    color: #df2a41;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #ffcdc5;
+    color: black;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    section-input {
+        width: 25rem;
+        padding: 0.8rem;
+    }
+    .resultados-pesquisa {
+        width: 40rem;
+        height: 0.8rem;
+    }
+    .item-resultado h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    section input {
+        width: 17rem;
+    }
+
+    section button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .resultados-pesquisa {
+        width: 90%;
+        height: 50vh;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
