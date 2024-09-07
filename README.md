@@ -38,6 +38,4 @@ Adoraria ver mais pessoas contribuindo para a Slimepedia! Você pode:
 
 Vamos juntos criar a maior e melhor Slimepedia da galáxia!
 
-![Slimes relaxando~] (imagens/slimes_relaxando.webp)
-
 #SlimeRancher #Slimepedia #JavaScript #HTML #CSS
